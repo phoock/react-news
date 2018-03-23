@@ -1,0 +1,293 @@
+/* 公用 */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both ;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/* 总体布局 */
+
+.pc_index {
+    width: 1540px;
+    margin: 0 auto;
+}
+
+/* pcheader */
+
+.pc_index .logo {
+    display: block;
+    vertical-align: center;
+}
+
+.pc_index .logo img {
+    width: 50px;
+}
+
+.pc_index .logo span {
+    color: #333;
+    font-size: 24px;
+    line-height: 50px;
+    vertical-align: top;
+}
+
+.pc_index .register {
+    float: right !important;
+}
+
+.pc_index .ant-menu-horizontal>.ant-menu-item>a, .pc_index .ant-menu-horizontal>.ant-menu-submenu>a {
+    display: inline-block !important;
+}
+
+/* pc_body_carousel */
+
+.pc_index .ant-carousel {
+    margin-top: 25px;
+}
+
+.pc_index .ant-carousel img {
+    width: 100%;
+}
+
+.pc_index .ant-card-body {
+    padding: 5px;
+}
+
+/* pc_body_imglist */
+
+.pc_index .imglist_wrap {
+    margin-top: 20px;
+}
+
+.pc_index .imglist_ele {
+    float: left;
+    padding: 5px;
+}
+
+.pc_index .imglist_ele img {
+    height: 95px;
+}
+
+.pc_index .imglist_ele p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0px;
+}
+
+.pc_index .imglist_ele .title {
+    color: #999;
+}
+
+/* pc_body_list */
+
+.pc_index .main_list {
+    margin-left: 0;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.pc_index .main_list a {
+    color: #666;
+    transition: all .3s ease;
+}
+
+.pc_index .main_list a:hover {
+    color: #1890ff;
+}
+
+.pc_index .main_list p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+
+.tit_01, .tit_02 {
+    width: 250px;
+    height: 29px;
+    background: url(http://www.sinaimg.cn/book/deco/2012/0615/bg_m_01.png) no-repeat 0 0;
+}
+
+.tit_01 .t_name, .tit_02 .t_name {
+    float: left;
+    width: 104px;
+    text-align: center;
+    line-height: 29px;
+    color: #fff;
+    font: 14px/29px "微软雅黑", "宋体"
+}
+
+.tit_01 a:link, .tit_01 a:visited, .tit_02 a:link, .tit_02 a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tit_01 a:hover, .tit_02 a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.tit_02 {
+    background-position: 0 -50px;
+}
+
+.tit_02 .t_name {
+    width: 126px;
+}
+
+.module_02 .hd {
+    padding: 0 12px;
+    height: 32px;
+    background-position: -360px -140px;
+}
+
+.module_02 .hd h2 {
+    font: 14px/32px "Microsoft YaHei", sans-serif;
+    color: #333;
+}
+
+.module_02 .hd a {
+    color: #333;
+}
+
+.module_02 .hd a:hover {
+    color: #f00;
+}
+
+.module_02 .hd .more {
+    float: right;
+    margin-top: -24px;
+}
+
+.module_02 .bd {
+    overflow: hidden;
+    padding: 6px 10px 0;
+    border: 1px solid #ccc;
+    border-width: 0 1px;
+}
+
+.module_02 .btm {
+    height: 5px;
+    overflow: hidden;
+    background-position: -360px -180px;
+}
+
+.module_02 .bd {
+    padding: 3px 10px 0;
+}
+
+.img_txt .img_01 {
+    float: left;
+    margin-right: 10px;
+    _margin-right: 7px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.module_02 .img_txt img {
+    float: left;
+    padding: 2px;
+    margin: 2px 10px 0 0;
+    border: 1px solid #ccc;
+}
+
+.module_02 .img_01 {
+    width: 96px;
+}
+
+.module_02 .img_01 img {
+    display: block;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.module_02 .col_hd {
+    border-left: 1px solid #ccc;
+    padding-top: 5px;
+    background-position: -650px -100px !important;
+}
+
+.dot_line, .vert_line, .dot_line2, .vert_line2, .top_list li {
+    background: url('http://www.sinaimg.cn/book/deco/2010/0913/blog/book_yc_dotline.png') 0 -1px repeat-y;
+}
+
+.header, .btn01, .headline, .hd, .btm, li, .hot, .col_hd, .tab_menu_box {
+    background: url(http://www.sinaimg.cn/book/deco/2013/0407/book_yc_blog03.png) -9999em 0 no-repeat;
+}
+
+.dot_line {
+    height: 1px;
+    overflow: hidden;
+    background-position: 0 -29px;
+    background-repeat: repeat-x;
+}
+
+.dot_line2 {
+    height: 1px;
+    overflow: hidden;
+    background-position: -1px 0;
+    background-repeat: repeat-x;
+}
+
+.top_list li {
+    zoom: 1;
+    padding: 0 5px;
+    font-family: 'Microsoft Yahei', '微软雅黑', 'Simsun', '宋体', 'Arial';
+    line-height: 24px;
+    background-position: 0 -29px;
+    background-repeat: repeat-x;
+}
+
+.top_list span {
+    zoom: 1;
+    margin-right: 10px;
+}
+
+.top_list li .hot {
+    float: left;
+    width: 18px;
+    height: 13px;
+    margin-top: 5px;
+    line-height: 13px;
+    background-position: -910px -140px;
+    color: #fff;
+}
+
+.top_list .hits {
+    display: block;
+    text-align: right;
+    margin-top: -24px;
+}
+
+/* footer */
+
+.pc_index .footer p {
+    text-align: center;
+    padding: 20px;
+}
+
+/* center */
+.pc_index .ucCommet{
+    margin-top: 20px;
+}

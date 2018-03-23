@@ -1,0 +1,74 @@
+/* 公用 */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both ;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+
+/* header */
+.mb_index .logo img{
+    width: 50px;
+}
+.mb_index .logo span{
+    color:#333;
+    font-size: 24px;
+    line-height: 50px;
+    vertical-align: top;
+}
+.mb_index .register{
+    line-height: 50px;
+}
+.mb_index .register i{
+    font-size: 32px;
+    line-height: 50px;
+    vertical-align: top;
+    color:#1890ff;
+}
+
+/* footer */
+
+.mb_index .footer p {
+    text-align: center;
+    padding: 20px;
+}
+
+.mb_index .ant-carousel img{
+    width: 100%;
+}
+
+.mb_index .ant-tabs-content p{
+    color:#333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+
+}
+
+.mb_index .ant-back-top{
+    right:150px;
+}
